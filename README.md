@@ -4,7 +4,7 @@ This repository contains the public artifact package for the paper:
 
 **Diagnosing and Mitigating Context Overfitting in Remote-Sensing Few-Shot Object Detection**
 
-The package is intended for review and post-acceptance release. It provides method code, reproducibility notes, compact result summaries, and dataset preparation instructions for the RSOD framework.
+The package is intended for review and post-acceptance release. It provides method code, reproducibility notes, configuration templates, and dataset preparation instructions for the RSOD framework.
 
 ## Main Components
 
@@ -19,7 +19,6 @@ The package is intended for review and post-acceptance release. It provides meth
 src/rsod/       Method implementation files
 configs/        Portable configuration notes and templates
 scripts/        Train/eval command templates
-results/        Compact paper-facing result tables
 metadata/       Text-embedding metadata
 docs/           Dataset, environment, reproducibility, and weight notes
 ```
@@ -83,29 +82,18 @@ docs/REPRODUCIBILITY.md
 docs/WEIGHTS.md
 ```
 
-## Results
-
-Compact result summaries are provided under:
-
-```text
-results/dior/
-results/nwpu/
-```
-
-Paper-facing comparisons should use Novel AP50 and the OOC diagnostic metrics described in the manuscript.
-
 ## Code Availability Statement
 
 For manuscript submission, the repository can be cited as:
 
 ```text
-Code and reproducibility materials are available in the RSOD public artifact package. The public URL will be added after repository deposition on GitHub, Zenodo, or an institutional archive.
+Code, configuration templates, and reproducibility materials are available in the RSOD public artifact package. The public URL will be added after repository deposition on GitHub, Zenodo, or an institutional archive.
 ```
 
 If a public URL is not yet assigned at submission time, use:
 
 ```text
-The code, configuration templates, result summaries, and reproducibility notes are available from the corresponding author upon reasonable request and will be released in a public repository upon publication.
+The code, configuration templates, and reproducibility notes are available from the corresponding author upon reasonable request and will be released in a public repository upon publication.
 ```
 
 ## License
