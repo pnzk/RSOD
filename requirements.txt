@@ -1,0 +1,29 @@
+# Public installation template.
+# This is not a lock file. It removes local file:// wheel paths from the captured environment.
+
+torch==1.10.1
+torchvision==0.11.2
+
+# Install the mmcv-full wheel matching your CUDA/PyTorch build.
+# Example for old OpenMMLab stacks:
+# pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/{cuda_version}/{torch_version}/index.html
+mmcv-full==1.4.0
+
+mmdet==2.20.0
+
+# Use an MMFewShot-compatible source tree.
+# The original local environment used an editable/local mmfewshot package.
+mmfewshot==0.1.0
+
+numpy==1.24.3
+scipy==1.10.1
+scikit-learn==1.3.2
+opencv-python==4.7.0
+timm==0.6.13
+einops==0.8.0
+terminaltables
+yapf
+matplotlib
+pycocotools
+
+git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6

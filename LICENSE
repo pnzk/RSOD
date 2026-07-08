@@ -1,0 +1,8 @@
+License notice for the RSOD public artifact package
+
+This folder is prepared as a review and public-release artifact for academic use.
+
+Before uploading the package as a public repository, choose a final redistribution license after checking compatibility with the licenses of the upstream detection framework, MMDetection, MMFewShot, OpenAI CLIP, and the public datasets used in the experiments.
+
+Until a final license is assigned, this package should be treated as manuscript-supporting research material rather than a legally finalized open-source release.
+
